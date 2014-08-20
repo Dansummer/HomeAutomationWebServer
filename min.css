@@ -1,0 +1,229 @@
+label.error {
+	color: red;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4;
+	margin-top: 0.5em;
+	width: 100%;
+	float: none;
+}
+
+@media screen and (orientation: portrait) {
+	label.error {
+		margin-left: 0;
+		display: block;
+	}
+
+}
+
+@media screen and (orientation: landscape) {
+	label.error {
+		display: inline-block;
+		margin-left: 22%;
+	}
+
+}
+
+em {
+	color: red;
+	font-weight: bold;
+	padding-right: .25em;
+}
+a {
+	text-decoration:none;
+	color:#00c6ff;
+}
+
+h1 {
+	margin: 0;
+}
+
+h1 small{
+	font: 0.4em normal  Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	 letter-spacing: 0.2em;
+	 line-height: 5em;
+	display: block;
+}
+
+h2 {
+	font-weight:700;
+	color:#bbb;
+	font-size:20px;
+}
+
+h2, p {
+	margin-bottom:10px;
+}
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('BebasNeue-webfont.eot');
+	src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),url('BebasNeue-webfont.woff') format('woff'),url('BebasNeue-webfont.ttf') format('truetype'),url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.clock {
+	  border:2px solid #333;
+	 color:#fff;
+	background:#202020;
+ }
+
+#Date {
+	 font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	 font-size:26px;
+	 text-align:center;
+	 text-shadow:0 0 5px #00c6ff;
+ }
+
+ul.hz_ul {
+	list-style:none;
+	 text-align:center;
+ }
+
+ul li.hz {
+	 display:inline;
+	 font-size:3em;
+	 text-align:center;
+	 font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	 text-shadow:0 0 9px #00c6ff;
+ }
+
+#point {
+	 position:relative;
+	 -moz-animation:mymove 1s ease infinite;
+	 -webkit-animation:mymove 1s ease infinite;
+	 padding-left:8px;
+	 padding-right:8px;
+ }
+
+#AM_PM {
+	  font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	 font-size:26px;
+	 text-shadow:0 0 5px #00c6ff;
+	padding-right:20px;
+ }
+
+@-webkit-keyframes mymove{
+	0% {
+		opacity:1.0;
+		 text-shadow:0 0 20px #00c6ff;
+	}
+
+	50% {
+		opacity:0;
+		 text-shadow:none;
+	 }
+
+	100% {
+		opacity:1.0;
+		 text-shadow:0 0 20px #00c6ff;
+	 }
+
+}
+
+@-moz-keyframes mymove{
+	0% {
+		opacity:1.0;
+		 text-shadow:0 0 20px #00c6ff;
+	}
+
+	50% {
+		opacity:0;
+		 text-shadow:none;
+	 }
+
+	100% {
+		opacity:1.0;
+		 text-shadow:0 0 20px #00c6ff;
+	 }
+
+}
+ .my-tooltip-btn, .ui-collapsible-content,.ui-widget-content{
+	border: 0px solid #000000;
+	background: rgba(255,255,255,0)!important;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%)!important;
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0)), color-stop(51%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)))!important;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%)!important;
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%)!important;
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%)!important;
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 )!important;
+}
+.ui-body-b, #customer5,#customer1,#flip-mini,#box,#table1,#table2,#table3,.ui-spinner{
+	background: rgba(110,121,129,0.88)!important;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(110,121,129,0.88) 0%, rgba(31,34,35,0.80) 100%)!important;
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(110,121,129,0.88)), color-stop(100%, rgba(31,34,35,0.80)))!important;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(110,121,129,0.88) 0%, rgba(31,34,35,0.80) 100%)!important;
+	background: -o-radial-gradient(center, ellipse cover, rgba(110,121,129,0.88) 0%, rgba(31,34,35,0.80) 100%)!important;
+	background: -ms-radial-gradient(center, ellipse cover, rgba(110,121,129,0.88) 0%, rgba(31,34,35,0.80) 100%)!important;
+	background: radial-gradient(ellipse at center, rgba(110,121,129,0.88) 0%, rgba(31,34,35,0.80) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e7981', endColorstr='#1f2223', GradientType=1 )!important;
+}
+.ui-li-has-thumb .ui-btn-inner {
+	min-height: 60px;
+	padding-left: 100px;
+}
+
+ .ui-collapsible-content,#bk, #table1,#table2,#table3,#flash_time{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	 width:90%;
+	 border-collapse:collapse;
+}
+
+#table1 td,#table2 td,#table3 td, #table1 th,#table2 th,#table3 th,#flash_time td,#flash_time th{
+	font-size:1em;
+	 border:1px solid #458FFF;
+	 padding:3px 7px 2px 7px;
+}
+
+#table1 th,#table2 th,#table3 th{
+	 font-size:1.1em;
+	 text-align:left;
+	 padding-top:5px;
+	 padding-bottom:4px;
+	 background-color:#224880;
+	 color:#ffffff;
+}
+
+#table1 tr.alt td,#table2 tr.alt td,#table3 tr.alt td{
+	 color:#000000;
+	 background-color:#EAF2D3;
+}
+
+h5, h3, body{
+	font:16px/1 'Trocchi', sans-serif;
+}
+
+ h1{
+	text-align:center;
+	font: normal 52px 'Alex Brush';
+	color:#FFFFFF;
+	padding-top:60px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.1);
+}
+
+#bk {
+	width:80%
+}
+
+.ui-popup-arrow-container.ui-popup-arrow-t {
+	top: -19px;
+	clip: rect(-1000px,2000px,19px,-1000px);
+}
+
+.ui-icon-arrow-d{
+	color:#00c6ff;
+}
+#blur-filter{    
+
+                 background-size:cover;                   
+                 -webkit-filter: blur(3px);
+                 -moz-filter: blur(3px);                                  
+                 -o-filter: blur(3px);
+                 -ms-filter: blur(3px);                         
+                 filter: blur(3px);
+
+ }
+
