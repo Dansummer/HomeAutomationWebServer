@@ -1,3 +1,4 @@
+<style type="text/css">
 .my-tooltip-btn, .ui-collapsible-content,.ui-widget-content{
 	border: 0px solid #000000;
 	background: rgba(255,255,255,0)!important;
@@ -75,3 +76,4 @@ h5, h3, body{
 .ui-icon-arrow-d{
 	color:#00c6ff;
 }
+</style>
